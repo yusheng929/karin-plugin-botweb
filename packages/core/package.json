@@ -1,6 +1,6 @@
 {
   "name": "karin-plugin-botweb",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "author": "瑜笙",
   "type": "module",
   "description": "基于Karin编写的Bot面板",

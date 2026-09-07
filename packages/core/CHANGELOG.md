@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.15](https://github.com/yusheng929/karin-plugin-botweb/compare/core-v1.0.14...core-v1.0.15) (2026-09-07)
+
+
+### 🐛 错误修复
+
+* 减少日志输出 ([cd33c31](https://github.com/yusheng929/karin-plugin-botweb/commit/cd33c31c2467f73eb887b2c188687226c6604ae2))
+
 ## [1.0.14](https://github.com/yusheng929/karin-plugin-botweb/compare/core-v1.0.13...core-v1.0.14) (2026-07-31)
 
 
