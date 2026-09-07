@@ -163,7 +163,7 @@ export const noticeHandlers = [
       }
     })
     next()
-  }),
+  }, { log: false }),
 
   karin.accept('notice.groupRecall', (e, next) => {
     broadcast({
@@ -178,7 +178,7 @@ export const noticeHandlers = [
       }
     })
     next()
-  }),
+  }, { log: false }),
 
   // -------------------- 戳一戳推送 --------------------
   karin.accept(PRIVATE_POKE_EVENT, (e, next) => {
@@ -195,7 +195,7 @@ export const noticeHandlers = [
       }
     })
     next()
-  }),
+  }, { log: false }),
 
   karin.accept('notice.groupPoke', (e, next) => {
     broadcast({
@@ -211,7 +211,7 @@ export const noticeHandlers = [
       }
     })
     next()
-  }),
+  }, { log: false }),
 
   // -------------------- 表情回应（QQ 贴表情）推送 --------------------
   // 前端给原气泡下方渲染 faceId 对应的 QFace + 次数（实时聚合，不落库）
@@ -244,7 +244,7 @@ export const noticeHandlers = [
       }
     })
     next()
-  })
+  }, { log: false })
 ]
 
 logger.info(`[BotWeb] 面板已挂载：http://127.0.0.1:7777${BASE}（接口已接入 karin 鉴权）`)
